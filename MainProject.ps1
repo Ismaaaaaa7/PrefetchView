@@ -34,8 +34,8 @@ $script:cps = 10
 $script:randomization = 0
 $script:mainTimer = $null
 $script:hotkeyTimer = $null
-$script:hotkeyVK = 0x75  
-$script:hotkeyName = "F6"
+$script:hotkeyVK = 0x52  
+$script:hotkeyName = "R"
 $script:leftLastClick = [DateTime]::MinValue
 $script:rightLastClick = [DateTime]::MinValue
 $script:capturingHotkey = $false
@@ -471,3 +471,4 @@ $form.Add_FormClosing({
 
 $form.Add_Shown({$form.Activate()})
 [void]$form.ShowDialog()
+
